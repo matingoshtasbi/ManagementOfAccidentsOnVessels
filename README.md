@@ -51,14 +51,14 @@ Interact with the Persian Gulf map to select an accident location.
 The application will determine the nearest port based on the accident's location and suggest a suitable vessel for assistance.
 
 
-# Technologies Used
-.NET 6
-C#
-WinForms
-Entity Framework Core
+## Technologies Used
+.NET 6,
+C#,
+WinForms,
+Entity Framework Core,
 SQL Server
 
-# Database Setup
+## Database Setup
 The application uses SQL Server as the database.
 Make sure to configure the connection string in the appsettings.json file.
 
