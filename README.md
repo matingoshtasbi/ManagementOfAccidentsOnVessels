@@ -21,7 +21,7 @@ Build the Project
 
 Open the solution in Visual Studio (or your preferred IDE) and build the project. Make sure you have .NET 6 installed.
 
-2. # Database Configuration
+2. **Database Configuration**
 
 Update the database connection string in the appsettings.json file to point to your SQL Server instance:
 
@@ -29,7 +29,7 @@ Update the database connection string in the appsettings.json file to point to y
   "DefaultConnection": "Server=your-server;Database=your-database;User Id=your-username;Password=your-password;"
 }
 
-3. # Use Entity Framework Core migrations to create and update the database schema
+3. **Use Entity Framework Core migrations to create and update the database schema**
 
    shell
    dotnet ef database update
