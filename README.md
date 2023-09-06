@@ -21,7 +21,7 @@ Build the Project
 
 Open the solution in Visual Studio (or your preferred IDE) and build the project. Make sure you have .NET 6 installed.
 
-Database Configuration
+# Database Configuration
 
 Update the database connection string in the appsettings.json file to point to your SQL Server instance:
 
@@ -29,16 +29,15 @@ Update the database connection string in the appsettings.json file to point to y
   "DefaultConnection": "Server=your-server;Database=your-database;User Id=your-username;Password=your-password;"
 }
 
-Use Entity Framework Core migrations to create and update the database schema:
+# Use Entity Framework Core migrations to create and update the database schema:
 
-shell
-Copy code
-dotnet ef database update
-Run the Application
+   ```shell
+   dotnet ef database update
+   Run the Application
 
 Start the application, and it should open the Vessel Management page by default.
 
-Usage
+# Usage
 Vessel Management
 
 Use the Vessel Management page to create, update, and delete vessels associated with ports.
