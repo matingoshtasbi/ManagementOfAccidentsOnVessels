@@ -37,26 +37,32 @@ Update the database connection string in the appsettings.json file to point to y
 
 Start the application, and it should open the Vessel Management page by default.
 
-# Usage
+## Usage
 Vessel Management
 
 Use the Vessel Management page to create, update, and delete vessels associated with ports.
-The page allows you to input vessel details and associate them with a port's latitude and longitude.
+The page allows you to input vessel details and associate them with a port.
+
+
 Accident Management
 
 Navigate to the Accident Management page.
 Interact with the Persian Gulf map to select an accident location.
 The application will determine the nearest port based on the accident's location and suggest a suitable vessel for assistance.
-Technologies Used
+
+
+# Technologies Used
 .NET 6
 C#
 WinForms
 Entity Framework Core
 SQL Server
-Database Setup
+
+# Database Setup
 The application uses SQL Server as the database.
 Make sure to configure the connection string in the appsettings.json file.
 
+## Contribute 
 Contributions to this project are welcome. To contribute:
 
 Fork the repository.
